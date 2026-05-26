@@ -517,3 +517,20 @@ h3 {
     padding-top: max(18px, env(safe-area-inset-top));
   }
 }
+
+.notes {
+  display: grid;
+  gap: 18px;
+}
+
+.note-section {
+  display: grid;
+  gap: 10px;
+}
+
+.note-section h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #8a7564;
+  letter-spacing: 0.04em;
+}

@@ -18,9 +18,9 @@
           <h1>おいしいレシピ</h1>
         </div>
         <div class="top-actions">
-          <button class="icon-button ghost" id="listButton" type="button">一覧</button>
+          <button class="icon-button ghost hidden" id="listButton" type="button">一覧へ</button>
           <button class="icon-button" id="wakeLockButton" type="button" aria-label="調理モード">
-            <span>調理</span>
+            <span>調理モード</span>
           </button>
         </div>
       </header>
@@ -28,7 +28,7 @@
       <section class="recipe-list-view" id="recipeListView" aria-label="レシピ一覧">
         <div class="list-heading">
           <h2>今日はどれを作る？</h2>
-          <p id="recipeCount">3 recipes</p>
+          <p id="recipeCount">5 recipes</p>
         </div>
         <div class="recipe-list" id="recipeList"></div>
       </section>
@@ -38,7 +38,7 @@
           <img id="recipePhoto" src="assets/kuromame-mushipan.png" alt="" />
           <div class="hero-copy">
             <p id="recipeDate">2026-05-26</p>
-            <h2 id="recipeTitle">黒豆三温糖蒸しパン</h2>
+            <h2 id="recipeTitle">黒豆三温糖蒸しパン（卵1個使い切り版）</h2>
             <div class="hero-stats">
               <span id="recipeYield">2〜3個分</span>
               <span id="recipeCalories">約683kcal</span>
@@ -46,13 +46,13 @@
           </div>
         </section>
 
-        <nav class="recipe-tabs" aria-label="レシピ一覧" id="recipeTabs"></nav>
+        <nav class="recipe-tabs" aria-label="レシピ切り替え" id="recipeTabs"></nav>
 
         <section class="tools" aria-label="調理ツール">
           <div class="scale-control">
             <span>分量</span>
-            <div class="segmented" role="group" aria-label="分量倍率">
-              <button type="button" data-scale="0.5">半分</button>
+            <div class="segmented" role="group" aria-label="分量切り替え">
+              <button type="button" data-scale="0.5">半量</button>
               <button type="button" data-scale="1" class="active">標準</button>
               <button type="button" data-scale="2">倍量</button>
             </div>
@@ -64,7 +64,7 @@
           <article class="panel">
             <div class="section-title">
               <h3>材料</h3>
-              <span id="servingLabel">標準</span>
+              <span id="servingLabel">標準量</span>
             </div>
             <ul class="ingredients" id="ingredients"></ul>
           </article>
@@ -88,7 +88,7 @@
             <div class="section-title">
               <h3>メモ</h3>
             </div>
-            <ul class="tips" id="tips"></ul>
+            <div class="notes" id="notes"></div>
           </article>
         </section>
       </section>
