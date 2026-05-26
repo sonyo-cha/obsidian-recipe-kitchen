@@ -1,0 +1,16 @@
+{
+  "name": "おいしいレシピ",
+  "short_name": "レシピ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#faf7f0",
+  "icons": [
+    {
+      "src": "assets/kuromame-mushipan.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
