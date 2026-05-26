@@ -241,6 +241,49 @@ const recipes = [
       },
     ],
   },
+  {
+    id: "chicken-green-pepper-nimono",
+    title: "鶏ももピーマン煮物",
+    fullTitle: "鶏もも肉と丸ごとピーマンの煮物",
+    date: "2026-05-26",
+    yield: "全量",
+    calories: "約628kcal",
+    photo: "assets/chicken-green-pepper-nimono.png",
+    ingredients: [
+      { name: "鶏もも肉（唐揚げ用）", amount: 250, unit: "g" },
+      { name: "ピーマン", amountText: "5個（150g）" },
+      { name: "水", amount: 150, unit: "cc" },
+      { name: "酒", amountText: "大さじ1" },
+      { name: "みりん", amountText: "大さじ2" },
+      { name: "しょうゆ", amountText: "大さじ1と1/2" },
+      { name: "唐辛子", amountText: "1本" },
+    ],
+    calorieNotes: [
+      "約628kcal",
+      "2人分にする場合: 1人分約314kcal",
+      "3人分にする場合: 1人分約209kcal",
+      "煮汁を残す場合、実際に食べるカロリーは少し下がる可能性あり",
+    ],
+    steps: [
+      "鍋に煮汁調味料と鶏肉を入れる。",
+      "ピーマンを手でぎゅっとにぎってつぶし、鍋に加える。",
+      "ふたをして弱めの中火にかけ、煮立たせる。",
+      "アクをすくう。",
+      "再度ふたをし、7〜9分ほど弱めの中火で煮る。",
+      "途中で鶏肉とピーマンの上下を返す。",
+    ],
+    noteSections: [
+      {
+        title: "ポイント",
+        items: [
+          "ピーマンはヘタのまわりなどをよく洗う。",
+          "種は取り除かなくても食べられる。",
+          "種やわたの食感が気になる場合は、取り除いて作る。",
+          "唐辛子は省いてもおいしく作れる。",
+        ],
+      },
+    ],
+  },
 ];
 
 const state = {

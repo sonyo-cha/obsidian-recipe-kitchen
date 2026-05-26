@@ -1,4 +1,4 @@
-const CACHE_NAME = "obsidian-recipe-kitchen-v7";
+const CACHE_NAME = "obsidian-recipe-kitchen-v8";
 const ASSETS = [
   "./",
   "./index.html",
@@ -10,6 +10,7 @@ const ASSETS = [
   "./assets/malatang.png",
   "./assets/yangnyeom-chicken.png",
   "./assets/salmon-lemon-pasta.png",
+  "./assets/chicken-green-pepper-nimono.png",
 ];
 
 self.addEventListener("install", (event) => {
