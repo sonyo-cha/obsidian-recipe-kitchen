@@ -1,4 +1,4 @@
-const CACHE_NAME = "obsidian-recipe-kitchen-v4";
+const CACHE_NAME = "obsidian-recipe-kitchen-v5";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,6 +6,8 @@ const ASSETS = [
   "./app.js",
   "./manifest.webmanifest",
   "./assets/kuromame-mushipan.png",
+  "./assets/nasu-nibitashi.png",
+  "./assets/malatang.png",
 ];
 
 self.addEventListener("install", (event) => {

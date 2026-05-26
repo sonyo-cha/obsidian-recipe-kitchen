@@ -17,67 +17,80 @@
           <p class="eyebrow">Obsidian Kitchen</p>
           <h1>おいしいレシピ</h1>
         </div>
-        <button class="icon-button" id="wakeLockButton" type="button" aria-label="調理モード">
-          <span>調理</span>
-        </button>
+        <div class="top-actions">
+          <button class="icon-button ghost" id="listButton" type="button">一覧</button>
+          <button class="icon-button" id="wakeLockButton" type="button" aria-label="調理モード">
+            <span>調理</span>
+          </button>
+        </div>
       </header>
 
-      <section class="recipe-hero" aria-label="選択中のレシピ">
-        <img id="recipePhoto" src="assets/kuromame-mushipan.png" alt="" />
-        <div class="hero-copy">
-          <p id="recipeDate">2026-05-26</p>
-          <h2 id="recipeTitle">黒豆三温糖蒸しパン</h2>
-          <div class="hero-stats">
-            <span id="recipeYield">2〜3個分</span>
-            <span id="recipeCalories">約683kcal</span>
-          </div>
+      <section class="recipe-list-view" id="recipeListView" aria-label="レシピ一覧">
+        <div class="list-heading">
+          <h2>今日はどれを作る？</h2>
+          <p id="recipeCount">3 recipes</p>
         </div>
+        <div class="recipe-list" id="recipeList"></div>
       </section>
 
-      <nav class="recipe-tabs" aria-label="レシピ一覧" id="recipeTabs"></nav>
-
-      <section class="tools" aria-label="調理ツール">
-        <div class="scale-control">
-          <span>分量</span>
-          <div class="segmented" role="group" aria-label="分量倍率">
-            <button type="button" data-scale="0.5">半分</button>
-            <button type="button" data-scale="1" class="active">標準</button>
-            <button type="button" data-scale="2">倍量</button>
+      <section class="recipe-detail-view hidden" id="recipeDetailView">
+        <section class="recipe-hero" aria-label="選択中のレシピ">
+          <img id="recipePhoto" src="assets/kuromame-mushipan.png" alt="" />
+          <div class="hero-copy">
+            <p id="recipeDate">2026-05-26</p>
+            <h2 id="recipeTitle">黒豆三温糖蒸しパン</h2>
+            <div class="hero-stats">
+              <span id="recipeYield">2〜3個分</span>
+              <span id="recipeCalories">約683kcal</span>
+            </div>
           </div>
-        </div>
-        <button class="timer-button" type="button" id="timerButton">15:00</button>
-      </section>
+        </section>
 
-      <section class="content-grid">
-        <article class="panel">
-          <div class="section-title">
-            <h3>材料</h3>
-            <span id="servingLabel">標準</span>
-          </div>
-          <ul class="ingredients" id="ingredients"></ul>
-        </article>
+        <nav class="recipe-tabs" aria-label="レシピ一覧" id="recipeTabs"></nav>
 
-        <article class="panel">
-          <div class="section-title">
-            <h3>カロリー</h3>
+        <section class="tools" aria-label="調理ツール">
+          <div class="scale-control">
+            <span>分量</span>
+            <div class="segmented" role="group" aria-label="分量倍率">
+              <button type="button" data-scale="0.5">半分</button>
+              <button type="button" data-scale="1" class="active">標準</button>
+              <button type="button" data-scale="2">倍量</button>
+            </div>
           </div>
-          <div class="calories" id="calories"></div>
-        </article>
+          <button class="timer-button" type="button" id="timerButton">15:00</button>
+        </section>
 
-        <article class="panel wide">
-          <div class="section-title">
-            <h3>作り方</h3>
-            <button class="text-button" type="button" id="resetSteps">リセット</button>
-          </div>
-          <ol class="steps" id="steps"></ol>
-        </article>
+        <section class="content-grid">
+          <article class="panel">
+            <div class="section-title">
+              <h3>材料</h3>
+              <span id="servingLabel">標準</span>
+            </div>
+            <ul class="ingredients" id="ingredients"></ul>
+          </article>
 
-        <article class="panel wide">
-          <div class="section-title">
-            <h3>コツ</h3>
-          </div>
-          <ul class="tips" id="tips"></ul>
-        </article>
+          <article class="panel">
+            <div class="section-title">
+              <h3>カロリー</h3>
+            </div>
+            <div class="calories" id="calories"></div>
+          </article>
+
+          <article class="panel wide">
+            <div class="section-title">
+              <h3>作り方</h3>
+              <button class="text-button" type="button" id="resetSteps">リセット</button>
+            </div>
+            <ol class="steps" id="steps"></ol>
+          </article>
+
+          <article class="panel wide">
+            <div class="section-title">
+              <h3>メモ</h3>
+            </div>
+            <ul class="tips" id="tips"></ul>
+          </article>
+        </section>
       </section>
     </main>
 
