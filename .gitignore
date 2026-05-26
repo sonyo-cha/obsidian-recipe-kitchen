@@ -5,5 +5,7 @@ color-preview*.png
 color-preview.html
 cafelatte-check.png
 list-check.png
+verification-*.png
+.__verify_*.html
 .DS_Store
 Thumbs.db
