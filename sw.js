@@ -1,4 +1,4 @@
-const CACHE_NAME = "obsidian-recipe-kitchen-v2";
+const CACHE_NAME = "obsidian-recipe-kitchen-v3";
 const ASSETS = [
   "./",
   "./index.html",

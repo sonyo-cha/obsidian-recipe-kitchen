@@ -3,8 +3,8 @@
   "short_name": "レシピ",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#fbf8f1",
-  "theme_color": "#faf7f0",
+  "background_color": "#fff7fb",
+  "theme_color": "#fff7fb",
   "icons": [
     {
       "src": "assets/kuromame-mushipan.png",
