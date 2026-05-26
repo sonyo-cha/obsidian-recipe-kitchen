@@ -1,9 +1,10 @@
-const CACHE_NAME = "obsidian-recipe-kitchen-v9";
+const CACHE_NAME = "obsidian-recipe-kitchen-v10";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./recipes-data.js",
   "./manifest.webmanifest",
   "./assets/kuromame-mushipan.png",
   "./assets/nasu-nibitashi.png",
