@@ -144,7 +144,7 @@ const recipes = [
     date: "2026-05-26",
     yield: "2人分",
     calories: "約707kcal + 焼き油分",
-    photo: "assets/yangnyeom-chicken.svg",
+    photo: "assets/yangnyeom-chicken.png",
     ingredients: [
       { name: "鶏もも肉", amount: 250, unit: "g" },
       { name: "塩こしょう", amountText: "少々" },
@@ -196,7 +196,7 @@ const recipes = [
     date: "2026-05-26",
     yield: "1人分",
     calories: "約591〜742kcal",
-    photo: "assets/salmon-lemon-pasta.svg",
+    photo: "assets/salmon-lemon-pasta.png",
     ingredients: [
       { name: "パスタ", amountText: "80〜100g" },
       { name: "サーモン", amountText: "70〜80g" },
